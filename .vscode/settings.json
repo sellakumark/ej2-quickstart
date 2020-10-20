@@ -1,0 +1,8 @@
+{
+    "tslint.rulesDirectory": "node_modules/tslint-microsoft-contrib",
+    "tslint.configFile": "tslint.json",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "git.ignoreLimitWarning": true
+}

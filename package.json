@@ -1,0 +1,35 @@
+{
+    "name": "ej2-quickstart",
+    "version": "0.0.1",
+    "description": "Essential JS 2 typescript quick start application",
+    "author": "Syncfusion Inc.",
+    "license": "SEE LICENSE IN license",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/syncfusion/ej2-quickstart.git"
+    },
+    "dependencies": {
+        "@syncfusion/ej2-kanban": "*",
+        "@syncfusion/ej2-schedule": "*"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.13",
+        "fs": "0.0.1-security",
+        "gulp": "^3.9.1",
+        "gulp-protractor": "4.1.1",
+        "gulp-typescript": "6.0.0-alpha.1",
+        "jasmine": "3.6.2",
+        "jasmine-json-test-reporter": "1.0.0-beta",
+        "pix-diff": "2.0.1",
+        "run-sequence": "2.2.1",
+        "shelljs": "0.8.4",
+        "systemjs": "0.21.5",
+        "tslint-microsoft-contrib": "6.2.0",
+        "typescript": "4.0.3"
+    },
+    "scripts": {
+        "start": "gulp start",
+        "test": "gulp e2e-test",
+        "testdriver": "gulp e2e-webdriver-update && gulp e2e-webdriver-start"
+    }
+}
